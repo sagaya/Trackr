@@ -1,6 +1,6 @@
 # Trackr
 
-INSTALL ALL THE PODS BEFORE OPENING THE XCODE PROJECT :)
+   RUN POD INSTALL BEFORE OPENING THE XCODE PROJECT :)
 
 
 The app is a demo delivery system application that sends one package at a time.  
