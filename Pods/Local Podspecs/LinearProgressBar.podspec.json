@@ -1,0 +1,22 @@
+{
+  "name": "LinearProgressBar",
+  "version": "1.0.0",
+  "summary": "Linear Progress Bar for Swift",
+  "homepage": "https://github.com/PhilippeBoisney/LinearProgressBar",
+  "authors": {
+    "BOISNEY Philippe": "phil.boisney(@)gmail.com"
+  },
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "source": {
+    "git": "https://github.com/PhilippeBoisney/LinearProgressBar.git",
+    "tag": "v1.0.0"
+  },
+  "source_files": "LinearProgressBar/LinearProgressBar.swift",
+  "frameworks": "UIKit",
+  "platforms": {
+    "ios": "8.0"
+  }
+}

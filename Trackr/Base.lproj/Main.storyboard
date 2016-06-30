@@ -589,16 +589,11 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" id="2ZE-02-k4k"/>
                                 </connections>
                             </button>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="PfK-gn-4QD">
-                                <rect key="frame" x="276" y="487" width="20" height="20"/>
-                                <color key="color" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="activityInd" destination="PfK-gn-4QD" id="bzK-NF-XCk"/>
                         <outlet property="emailField" destination="If5-44-Zlu" id="ckT-Lf-9JO"/>
                         <outlet property="passwordField" destination="T0X-6h-Jnd" id="KQr-TP-zPj"/>
                         <segue destination="FXy-6o-UxP" kind="presentation" identifier="loggedIn" id="X0J-VS-q7L"/>

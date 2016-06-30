@@ -1,18 +1,30 @@
 PODS:
   - Firebase (2.5.1)
   - IQKeyboardManagerSwift (4.0.4)
+  - LinearProgressBar (1.0.0)
   - Material (1.42.6)
   - SKSplashView (0.1.2)
 
 DEPENDENCIES:
   - Firebase (= 2.5.1)
   - IQKeyboardManagerSwift
+  - LinearProgressBar (from `https://github.com/PhilippeBoisney/LinearProgressBar.git`)
   - Material
   - SKSplashView
+
+EXTERNAL SOURCES:
+  LinearProgressBar:
+    :git: https://github.com/PhilippeBoisney/LinearProgressBar.git
+
+CHECKOUT OPTIONS:
+  LinearProgressBar:
+    :commit: 11cda1df9ffbb07150424996c53ed15ddc72b87b
+    :git: https://github.com/PhilippeBoisney/LinearProgressBar.git
 
 SPEC CHECKSUMS:
   Firebase: 3565ea88b830f28f2c77ecc524622bc71a20d085
   IQKeyboardManagerSwift: e0964d04d6a29b71016fd346dca13ecb80a2823a
+  LinearProgressBar: 11866ed667d95172ca5e966f816119c7a9d65833
   Material: 76dc9b14ad8b3a2ad673b77ad73dd66ed1eee68c
   SKSplashView: c65333b6707be6f237d09e7c8977941114b0a70d
 

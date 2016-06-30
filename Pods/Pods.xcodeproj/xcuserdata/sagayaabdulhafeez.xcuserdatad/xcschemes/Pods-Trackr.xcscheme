@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '7DE8BB1A97EE88D03B5DF0BA'
+               BlueprintIdentifier = 'DF50DFE5A79832C21C1DCB23'
                BlueprintName = 'Pods-Trackr'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_Trackr.framework'>

@@ -9,6 +9,7 @@ pod 'IQKeyboardManagerSwift'
 pod 'Material'
 pod 'Firebase', '= 2.5.1'
 pod 'SKSplashView'
+pod 'LinearProgressBar', :git => 'https://github.com/PhilippeBoisney/LinearProgressBar.git'
 
 end
 

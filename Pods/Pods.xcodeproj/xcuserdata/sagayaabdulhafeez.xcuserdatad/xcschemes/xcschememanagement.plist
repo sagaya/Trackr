@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>LinearProgressBar.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Material-io.cosmicmind.material.fonts.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -47,12 +52,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>06F6E99D5DEE6718A3FC588C1FC793EC</key>
+		<key>08C670F14C5E0F92D52B4FD40051294F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>08C670F14C5E0F92D52B4FD40051294F</key>
+		<key>0A23974F8C495A5B7BA12E6B55B6B570</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -67,12 +72,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B7AC9326D819482593FE118E915409D7</key>
+		<key>4F9FAC8978B3223C7CC34DC484702010</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DD4841D164E9F806A81BEF7DCBC257CB</key>
+		<key>913AA1D7DDD54093E5E97302B3DCF112</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B7AC9326D819482593FE118E915409D7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

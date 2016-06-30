@@ -9,6 +9,7 @@
 import UIKit
 import Material
 import Firebase
+import LinearProgressBar
 
 class ViewController: UIViewController,TextFieldDelegate {
 
@@ -17,6 +18,9 @@ class ViewController: UIViewController,TextFieldDelegate {
     @IBOutlet weak var confirmPassword: TextField!
     @IBOutlet weak var emailField: TextField!
     @IBOutlet weak var passwordField: TextField!
+    
+    let linearBar: LinearProgressBar = LinearProgressBar()
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -87,13 +91,14 @@ class ViewController: UIViewController,TextFieldDelegate {
             })
             
             signupbtn.enabled = false
-            activityInd.startAnimating()
-            activityInd.hidden = false
+            self.view.addSubview(linearBar)
+            self.linearBar.startAnimation()
+
             
         }else{
             showErrowAlert("Email and Password required", msg: "You must enter an email and password")
-            signupbtn.enabled = true
-            activityInd.stopAnimating()
+            self.linearBar.stopAnimation()
+
         }
         
     }

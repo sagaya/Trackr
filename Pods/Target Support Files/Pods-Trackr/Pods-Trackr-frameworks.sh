@@ -86,12 +86,14 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-Trackr/Firebase.framework"
   install_framework "Pods-Trackr/IQKeyboardManagerSwift.framework"
+  install_framework "Pods-Trackr/LinearProgressBar.framework"
   install_framework "Pods-Trackr/Material.framework"
   install_framework "Pods-Trackr/SKSplashView.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-Trackr/Firebase.framework"
   install_framework "Pods-Trackr/IQKeyboardManagerSwift.framework"
+  install_framework "Pods-Trackr/LinearProgressBar.framework"
   install_framework "Pods-Trackr/Material.framework"
   install_framework "Pods-Trackr/SKSplashView.framework"
 fi

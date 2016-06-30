@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '01AE27A33A3458D6078B7817'
-               BlueprintName = 'SKSplashView'
+               BlueprintIdentifier = '42E95463AAFEB3AA1643A47B'
+               BlueprintName = 'LinearProgressBar'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'SKSplashView.framework'>
+               BuildableName = 'LinearProgressBar.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

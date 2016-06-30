@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9F08F6451D2468F200C08DCE /* delivery.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F08F6441D2468F200C08DCE /* delivery.png */; };
 		9F08F6471D24780B00C08DCE /* map_marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F08F6461D24780B00C08DCE /* map_marker.png */; };
+		9FA146931D259919009A7547 /* LinearProgressBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA146921D259919009A7547 /* LinearProgressBar.framework */; };
 		9FD7759D1D2303E400541994 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD7759C1D2303E400541994 /* mainViewController.swift */; };
 		9FD775A11D23239200541994 /* low-poly-deadpool-982.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9FD775A01D23239200541994 /* low-poly-deadpool-982.jpg */; };
 		9FD775A31D2325C700541994 /* delivery-truck.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FD775A21D2325C700541994 /* delivery-truck.png */; };
@@ -40,6 +41,7 @@
 		992CA05DBFBB29AA7C760B95 /* Pods_Trackr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trackr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F08F6441D2468F200C08DCE /* delivery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delivery.png; sourceTree = "<group>"; };
 		9F08F6461D24780B00C08DCE /* map_marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_marker.png; sourceTree = "<group>"; };
+		9FA146921D259919009A7547 /* LinearProgressBar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LinearProgressBar.framework; path = "Pods/../build/Debug-iphoneos/LinearProgressBar.framework"; sourceTree = "<group>"; };
 		9FD7759C1D2303E400541994 /* mainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
 		9FD775A01D23239200541994 /* low-poly-deadpool-982.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "low-poly-deadpool-982.jpg"; sourceTree = "<group>"; };
 		9FD775A21D2325C700541994 /* delivery-truck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "delivery-truck.png"; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FA146931D259919009A7547 /* LinearProgressBar.framework in Frameworks */,
 				9FEC60F71D20C0A400C170B5 /* SKSplashView.framework in Frameworks */,
 				9FEC60EE1D209E4D00C170B5 /* Firebase.framework in Frameworks */,
 				9FEC60D81D208A5300C170B5 /* IQKeyboardManagerSwift.framework in Frameworks */,
@@ -85,6 +88,7 @@
 		445C64BB4038C2CB1B1FF32B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9FA146921D259919009A7547 /* LinearProgressBar.framework */,
 				9FEC60F61D20C0A400C170B5 /* SKSplashView.framework */,
 				9FEC60ED1D209E4D00C170B5 /* Firebase.framework */,
 				9FEC60D61D208A5300C170B5 /* IQKeyboardManagerSwift.framework */,
