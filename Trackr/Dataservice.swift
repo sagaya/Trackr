@@ -19,6 +19,7 @@ class Dataservice {
     var lat = ""
     var long = ""
     var id = ""
+    
     var REF_BASE: Firebase{
         return _REF_BASE
     }

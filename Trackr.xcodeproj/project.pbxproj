@@ -133,6 +133,7 @@
 				9FEC60C61D2088BF00C170B5 /* ViewController.swift */,
 				9FEC60F31D20A5CD00C170B5 /* SigninViewController.swift */,
 				9FD775B11D2454CC00541994 /* locateViewController.swift */,
+				9FEC60F11D20A14A00C170B5 /* Constatnts.swift */,
 				9FEC60C81D2088BF00C170B5 /* Main.storyboard */,
 				9FEC60CB1D2088BF00C170B5 /* Assets.xcassets */,
 				9FEC60C41D2088BF00C170B5 /* AppDelegate.swift */,
@@ -148,7 +149,6 @@
 				9FEC60F51D20AAC900C170B5 /* Resources */,
 				9FEC60DE1D208AC500C170B5 /* ImageAsset */,
 				9FEC60D01D2088BF00C170B5 /* Info.plist */,
-				9FEC60F11D20A14A00C170B5 /* Constatnts.swift */,
 			);
 			path = Trackr;
 			sourceTree = "<group>";
@@ -204,7 +204,7 @@
 				TargetAttributes = {
 					9FEC60C01D2088BE00C170B5 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = PBZ9S8GP84;
+						DevelopmentTeam = TZMPDXRVT8;
 					};
 				};
 			};
@@ -424,14 +424,17 @@
 			baseConfigurationReference = 7F81324A38EF5EC16BBA3AE2 /* Pods-Trackr.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = Trackr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.loxpaa.Trackr;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loxpaa.Trackrr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -440,14 +443,17 @@
 			baseConfigurationReference = 7A69ACB79A1FF97382C50A87 /* Pods-Trackr.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = Trackr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.loxpaa.Trackr;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loxpaa.Trackrr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
