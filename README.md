@@ -1,5 +1,10 @@
 # Trackr
 
+![alt tag](https://s7.postimg.org/nkgxwz3pn/Sign_up.png)
+![alt tag](https://s8.postimg.org/cm5b0j3et/Screen_Shot_2016_08_07_at_3_32_40_PM.png)
+
+
+
    RUN POD INSTALL BEFORE OPENING THE XCODE PROJECT :)
 
 
